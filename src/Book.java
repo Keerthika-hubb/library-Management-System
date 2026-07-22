@@ -11,7 +11,25 @@ public class Book {
         this.author = author;
         this.category = category;
         this.status = status;
-
+    }
+    // Getter Methods
+    public int getBookId() {
+        return bookId;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public String getStatus() {
+        return status;
+    }
 }
