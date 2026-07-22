@@ -32,4 +32,24 @@ public class Book {
     public String getStatus() {
         return status;
     }
+    // Setter Methods
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
+    }
+
+    public void setTitle(String title) {
+         this.title = title;
+     }
+
+    public void setAuthor(String author) {
+          this.author = author;
+     }
+
+     public void setCategory(String category) {
+          this.category = category;
+     }
+
+    public void setStatus(String status) {
+          this.status = status;
+     }
 }
